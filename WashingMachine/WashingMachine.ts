@@ -8,3 +8,5 @@ class WashingMachine {
     this.isWorking = true;
   }
 }
+uhfwufh
+,smkso
