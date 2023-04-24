@@ -1,5 +1,6 @@
 class Lamp {
   private isOn: boolean;
+  private hasBubble: boolean;
 
   public turnOn(): void {
     this.isOn = true;
@@ -9,3 +10,8 @@ class Lamp {
     this.isOn = false;
   }
 }
+
+    public switch(): void {
+        this.isOn = !this.isOn;
+    }
+
